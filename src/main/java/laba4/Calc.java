@@ -20,7 +20,7 @@ public class Calc extends HttpServlet {
 	private static class RequestCalc{
 		private final String first_calc;
 		private final String second_calc;
-		private int result;
+		private double result;
 		
 		private RequestCalc(String first, String second){
 		this.first_calc=first;
@@ -46,7 +46,7 @@ public class Calc extends HttpServlet {
 				first_try=0;
 				second_try=0;
 			}
-			result=first_try*second_try* (1/3);
+			result=(first_try*second_try)/3;
 			request.setAttribute("result", result);
 		}
 		
