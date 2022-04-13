@@ -11,7 +11,7 @@
 	<form action="${pageContext.request.contextPath}/Calc" method="post"> 
 	<label for="first">Площадь основания:</label>
 	<input type="text" name="first" id="first" value="${first}">
-	<label for="second">Второе слагаемое:</label>
+	<label for="second">Высота пирамиды:</label>
 	<input type="text" name="second" id="second" value="${second}">
 	<input type="submit" name="sign" value="Calcuuuuuu">
 	</form>
