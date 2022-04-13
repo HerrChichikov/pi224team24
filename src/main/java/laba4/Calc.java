@@ -46,7 +46,7 @@ public class Calc extends HttpServlet {
 				first_try=0;
 				second_try=0;
 			}
-			result=first_try*second_try/3;
+			result=first_try*second_try* (1/3);
 			request.setAttribute("result", result);
 		}
 		
