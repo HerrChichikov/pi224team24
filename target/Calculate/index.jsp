@@ -13,7 +13,7 @@
 	<input type="text" name="first" id="first" value="${first}">
 	<label for="second">Высота пирамиды:</label>
 	<input type="text" name="second" id="second" value="${second}">
-	<input type="submit" name="sign" value="Calcuuuuuu">
+	<input type="submit" name="sign" value="Посчитать">
 	</form>
 </body>
 </html>
