@@ -16,7 +16,7 @@ public class Calc extends HttpServlet {
 		
 		String firstParameter;
 		String secondParameter;
-		double result;
+		Double result = new Double(0);
 		
 		firstParameter = request.getParameter("first");
 		secondParameter = request.getParameter("second");

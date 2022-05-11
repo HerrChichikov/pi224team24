@@ -9,8 +9,8 @@
 <body>
 	<h1>Результат вычисления</h1>
 	<h2>Ваши введенные данные:</h2>
-	<p><strong>Площадь основания:</strong> ${first}</p>
-	<p><strong>Высота пирамиды:</strong> ${second}</p>
-	<p><strong>Результат:</strong> ${result}</p>
+	<p><strong>Площадь основания:</strong> ${first} мм</p>
+	<p><strong>Высота пирамиды:</strong> ${second} мм</p>
+	<p><strong>Результат:</strong> ${result} мм</p>
 </body>
 </html>
